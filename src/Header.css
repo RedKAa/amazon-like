@@ -13,7 +13,6 @@
   object-fit: contain;
   margin: 0 20px;
   margin-top: 18px;
-  cursor: pointer;
 }
 
 .header__search {
@@ -65,10 +64,9 @@
   align-items: center;
   color: white;
 }
-.header__optionCartIcon {
-  cursor: pointer;
-}
+
 .header__CartCount {
   margin-left: 10px;
   margin-right: 10px;
+  text-decoration: none !important;
 }
